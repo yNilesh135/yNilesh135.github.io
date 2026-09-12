@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+
+  <title>Tripzy Technologies</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #111111;
+      color: #ffffff;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 24px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+      text-align: center;
+    }
+
+    .brand {
+      font-size: clamp(56px, 10vw, 90px);
+      font-weight: 800;
+      letter-spacing: -4px;
+      line-height: 1;
+
+      margin-bottom: 22px;
+    }
+
+    .white {
+      color: #ffffff;
+    }
+
+    .orange {
+      color: #ff7a00;
+    }
+
+    .tagline {
+      font-size: clamp(18px, 3vw, 24px);
+      font-weight: 600;
+      color: #d7d7d7;
+
+      margin-bottom: 12px;
+    }
+
+    .india {
+      color: #9f9f9f;
+      font-size: 15px;
+
+      margin-bottom: 36px;
+    }
+
+    .description {
+      max-width: 560px;
+
+      margin: 0 auto 34px;
+
+      color: #bcbcbc;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      min-width: 170px;
+      padding: 13px 22px;
+
+      border-radius: 10px;
+
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+
+      transition: 0.2s ease;
+    }
+
+    .primary {
+      background: #ff7a00;
+      color: #ffffff;
+    }
+
+    .primary:hover {
+      background: #ff861a;
+      transform: translateY(-1px);
+    }
+
+    .secondary {
+      border: 1px solid #3a3a3a;
+      background: #1a1a1a;
+      color: #ffffff;
+    }
+
+    .secondary:hover {
+      border-color: #ff7a00;
+      transform: translateY(-1px);
+    }
+
+    footer {
+      margin-top: 52px;
+
+      color: #666666;
+      font-size: 12px;
+    }
+
+    @media (max-width: 520px) {
+      .brand {
+        letter-spacing: -2px;
+      }
+
+      .links {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+        max-width: 280px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="brand">
+      <span class="white">Tr</span><span class="orange">!</span><span class="white">p</span><span class="orange">z</span><span class="white">y</span>
+    </div>
+
+    <div class="tagline">
+      We <span class="orange">Track</span>,
+      We <span class="orange">Know</span>,
+      We <span class="orange">Simplify</span>.
+    </div>
+
+    <div class="india">
+      Built in India. Made for India.
+    </div>
+
+    <div class="description">
+      Tripzy helps vehicle owners keep fuel, expenses and trips organised in one simple place.
+    </div>
+
+    <div class="links">
+
+      <a
+        class="button primary"
+        href="mailto:tripzysupport@gmail.com">
+        Contact Support
+      </a>
+
+      <a
+        class="button secondary"
+        href="https://ynilesh135.github.io/tripzy-privacy/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Privacy Policy
+      </a>
+
+    </div>
+
+    <footer>
+      © 2026 Tripzy Technologies
+    </footer>
+
+  </main>
+
+</body>
+</html>
